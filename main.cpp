@@ -4,9 +4,7 @@ using namespace std;
 void exahustiva ();
 void arreglo ();
  int  arreglo (int a[],int n,int dato);
- /*
-#define tamanio(a)(sizeof(a)/sizeof(a[0]));
-*/
+
 //UN PROGRAMA DE ORDENAMIENTO  , UNIDO CON ARCHIVOS Y FUNCIONES 
 //
 
@@ -69,7 +67,7 @@ Busqueda.open("Busqueda.txt",ios::app);
   }
   
   return -1;
-}
+}//se implemento la busqueda exahustiva 
 void exahustiva (){
   int  arreglo(int a[],int n,int dato);
   int i,j,band;
@@ -79,10 +77,7 @@ void exahustiva (){
   ofstream Busqueda;
 
 Busqueda.open("Busqueda.txt",ios::app);
-///////////////
 
-
-///////////////////
   for (int i=0;i<10;i++)
   { int k=i,j=0;
   
@@ -109,4 +104,5 @@ while (a[k]==b&&j<=10){
 
 
 }
+
 
